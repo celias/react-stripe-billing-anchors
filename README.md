@@ -1,4 +1,14 @@
+x
+
+
 # Client Handoff Checklist
+
+## Building for Production
+1. Install dependencies: `pnpm install`
+2. Build the app: `pnpm build`
+3. Upload contents of `dist` folder to WordPress
+
+- [ ] Build for Production WP
 
 ## Before Handoff
 - [ ] Remove all test API keys and payment links
