@@ -1,4 +1,37 @@
-# React + TypeScript + Vite
+# Client Handoff Checklist
+
+## Before Handoff
+- [ ] Remove all test API keys and payment links
+- [ ] Update configuration template with client's pricing structure
+- [ ] Test build process works with `pnpm build`
+- [ ] Verify all links are configurable
+- [ ] Remove any development-only code
+- [ ] Update README with client-specific information
+- [ ] Create production build to verify everything works
+- [ ] Document WordPress embedding instructions
+
+## Client Requirements
+- [ ] Client's Stripe account access
+- [ ] Client's WordPress admin access
+- [ ] Confirmation of pricing structure
+- [ ] Confirmation of plan features
+- [ ] Client's preferred URLs for success/cancel pages
+- [ ] Client's branding requirements (colors, fonts, etc.)
+
+## Handoff Package
+- [ ] Source code (cleaned and documented)
+- [ ] Built files ready for WordPress
+- [ ] README.md with setup instructions
+- [ ] Configuration template
+- [ ] Support contact information
+
+## Post-Handoff
+- [ ] Schedule walkthrough with client
+- [ ] Document any specific customizations
+- [ ] Remove any sensitive data from development environment
+
+
+# Boilerplate - React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
