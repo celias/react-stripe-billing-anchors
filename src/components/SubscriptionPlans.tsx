@@ -27,7 +27,7 @@ const SubscriptionPlans = () => {
     }
   };
 
-  const handleSubscribe = async (planLink) => {
+  const handleSubscribe = async (planLink: string) => {
     setLoading(true);
     try {
       window.location.href = planLink;
